@@ -1,6 +1,6 @@
 {
   "name": "@xia18/babel-plugin-mock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "babel mock tool",
   "author": "夏梦剑 <xiamengjian47@gmail.com>",
   "homepage": "https://github.com/XiaMengjian/xia-public/tree/main/packages/babel-plugin-mock",
