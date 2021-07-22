@@ -11,6 +11,14 @@
       "npmClientArgs": [
         "--hoist"
       ]
-    }
+    },
+    "version": {
+      "allowBranch": "main",
+      "exact": true,
+      "ignoreChanges": [
+          "**/*.md"
+      ],
+      "message": "build: release version %v"
+  }
   }
 }

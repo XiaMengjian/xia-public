@@ -1,20 +1,25 @@
 {
-  "name": "@xia/babel-plugin-mock",
+  "name": "@xia18/babel-plugin-mock",
   "version": "1.0.0",
-  "description": "> TODO: description",
-  "author": "夏梦剑 <mengjian.xmj@ncarzone.com>",
-  "homepage": "",
+  "description": "babel mock tool",
+  "author": "夏梦剑 <xiamengjian47@gmail.com>",
+  "homepage": "https://github.com/XiaMengjian/xia-public/tree/main/packages/babel-plugin-mock",
   "license": "ISC",
   "main": "lib/babel-plugin-mock.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "lib"
   ],
+  "keywords": [
+    "xia",
+    "babel",
+    "mock"
+  ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "http://registry.npmjs.org"
   },
   "dependencies": {
     "@babel/core": "^7.14.8",
