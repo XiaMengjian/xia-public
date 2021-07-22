@@ -1,0 +1,29 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "demo:dev": "yarn workspace demo dev",
+    "demo:build": "yarn workspace demo build",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 2",
+    "clean": "lerna clean && rm -rf node_modules",
+    "packages:diff": "lerna diff",
+    "packages:list": "lerna ls -l",
+    "packages:changed": "lerna changed",
+    "packages:build": "lerna run --stream --sort build",
+    "publish": "lerna publish",
+    "autoPublish": "lerna publish --conventional-commits --yes",
+    "version": "lerna version --conventional-commits --yes"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "commitizen": "^4.2.4",
+    "conventional-changelog-cli": "^2.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.1",
+    "lerna": "^3.22.1"
+  }
+}

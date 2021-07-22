@@ -1,0 +1,16 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "command": {
+    "publish": {},
+    "bootstrap": {
+      "npmClientArgs": [
+        "--hoist"
+      ]
+    }
+  }
+}
